@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.new-chat{
+    border: 0.5px solid rgb(183, 177, 177);
+}
+.new-chat:hover{
+    background-color: rgba(183, 177, 177, 0.09);
+}
+
+.new-chat > span {
+    color: rgb(224, 219, 219);
+}
+
+.history-title:hover{
+    border-radius: 8px;
+    background-color: rgba(183, 177, 177, 0.08);
+}
